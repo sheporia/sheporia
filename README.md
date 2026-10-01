@@ -19,7 +19,7 @@ Sheporia lit uniquement ton nombre de pas, sur ta montre, sans jamais l'envoyer 
 
 ## Contact
 
-[adresse e-mail de contact / contact email]
+dyggietv@gmail.com
 
 ## Crédits / Credits
 
