@@ -9,6 +9,7 @@ Sheporia est un jeu de rôle rétro et gratuit pour iPhone et Apple Watch : tes 
 ## Pages
 
 - **Guide du marcheur / Walker's guide** : [index.html](index.html)
+- **Notes de version / Release notes** : [notes.html](notes.html)
 - **Politique de confidentialité / Privacy policy** : [privacy.html](privacy.html)
 
 ## Confidentialité en bref / Privacy in short

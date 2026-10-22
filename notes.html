@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="fr" class="show-fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sheporia · Notes de version</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Silkscreen&family=VT323&display=swap">
+<style>
+:root { --paper:#D3D6D9; --ink:#161616; --soft:#3A3D40; box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --paper:#0A0A0A; --ink:#E6E6DC; --soft:#B5B5AC; } }
+:root[data-theme="dark"] { --paper:#0A0A0A; --ink:#E6E6DC; --soft:#B5B5AC; }
+*,*::before,*::after { box-sizing:inherit; }
+body { margin:0; background:var(--paper); color:var(--ink); font-family:"VT323","Courier New",monospace; font-size:22px; line-height:1.3; }
+html.show-fr [lang="en"], html.show-en [lang="fr"] { display:none; }
+.wrap { max-width:680px; margin:0 auto; padding:16px 20px 64px; }
+.top { display:flex; justify-content:space-between; align-items:center; margin-bottom:24px; }
+.brand, h1, h2, button { font-family:"Silkscreen","Courier New",monospace; font-weight:400; }
+.brand { font-size:16px; }
+button { background:transparent; color:var(--ink); border:2px solid var(--ink); font-size:12px; padding:6px 10px; cursor:pointer; }
+button[aria-pressed="true"] { background:var(--ink); color:var(--paper); }
+h1 { font-size:clamp(26px,7vw,40px); margin:0 0 8px; }
+h2 { font-size:18px; margin:32px 0 10px; }
+p, li { max-width:62ch; }
+.meta { color:var(--soft); }
+.box { border:4px double var(--ink); padding:14px 16px; margin:20px 0; }
+a { color:var(--ink); }
+:focus-visible { outline:3px dashed var(--ink); outline-offset:3px; }
+.release { border-top:2px solid var(--ink); margin-top:28px; padding-top:6px; }
+.release h2 { display:flex; flex-wrap:wrap; gap:4px 14px; align-items:baseline; margin:10px 0 2px; }
+.tag { font-family:"Silkscreen","Courier New",monospace; font-size:11px; border:2px solid var(--ink); padding:2px 6px; }
+.tag.next { background:var(--ink); color:var(--paper); }
+.release ul { padding-left:22px; margin:8px 0; }
+.release li { margin:4px 0; }
+.release h3 { font-family:"Silkscreen","Courier New",monospace; font-weight:400; font-size:13px; margin:14px 0 4px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <span class="brand">SHEPORIA</span>
+  <div role="group" aria-label="Langue / Language">
+    <button type="button" data-lang="fr" aria-pressed="true">FR</button>
+    <button type="button" data-lang="en" aria-pressed="false">EN</button>
+  </div>
+</header>
+<div lang="fr">
+<h1>Notes de version</h1>
+<p class="meta">Tout ce qui a changé dans Sheporia depuis la première version.</p>
+<section class="release">
+<h2><span>1.6</span><span class="tag next">Prochainement</span></h2>
+<p class="meta">Plus de rencontres, plus de surprises</p>
+<h3>Nouvelles rencontres</h3>
+<ul><li>Monstres d'élite, dès la Forêt : enragés, cuirassés ou vifs, plus coriaces mais deux fois plus riches.</li><li>Embuscades, dès la Forêt : deux monstres à la suite.</li><li>Carrefours : un chemin sûr ou un chemin risqué, avec des scènes propres à chaque monde.</li><li>Coffres suspects : à toi de choisir si tu les ouvres…</li><li>4 nouveaux monstres à découvrir, un par monde.</li></ul>
+<h3>Équilibrage</h3>
+<ul><li>3 à 4 rencontres par lieue (3 à 5 pour le Vagabond), réserve de 8 rencontres et sac de 15 objets.</li><li>Faiblesses mieux réparties entre feu, glace et foudre : le feu ne suffit plus partout.</li><li>Récompenses ajustées aux rencontres plus nombreuses ; monstres des Prés un peu moins tendres ; Géant de Givre et Seigneur Immobile renforcés.</li><li>Colporteur : plus de malus d'attaque, et sa bombe coûte moins cher, grandit avec son niveau et étourdit le monstre.</li></ul>
+<h3>Confort</h3>
+<ul><li>Une bannière prévient quand une nouvelle version est disponible, ou quand ta montre et ton iPhone n'ont pas la même version.</li></ul>
+</section>
+<section class="release">
+<h2><span>1.5</span><span class="tag">22 octobre 2026</span></h2>
+<p class="meta">Synchro sans doublons</p>
+<ul><li>Une rencontre jouée sur un appareil disparaît de l'autre : plus de rencontres en double.</li><li>La montre et l'iPhone se parlent en direct quand ils sont proches, pour une synchro plus rapide.</li><li>Correction : changer d'appareil pouvait faire sauter directement au boss.</li></ul>
+</section>
+<section class="release">
+<h2><span>1.4</span><span class="tag">22 octobre 2026</span></h2>
+<p class="meta">Synchro précise et anti-triche</p>
+<ul><li>L'iPhone et la montre reprennent exactement au même endroit, jusqu'à l'avancement dans la lieue en cours.</li><li>Les pas saisis à la main dans Santé ne comptent plus.</li></ul>
+</section>
+<section class="release">
+<h2><span>1.3</span><span class="tag">21 octobre 2026</span></h2>
+<p class="meta">Boutique de tenues</p>
+<ul><li>12 tenues décoratives en vente, à 0,99 € chacune : la Collection Légendes et la Collection Saga, une de chaque par marcheur.</li><li>Bouton « Restaurer les achats ». Les tenues achetées suivent ton compte Apple sur l'iPhone et la montre.</li><li>Sans effet sur le jeu : tout le contenu reste gratuit.</li></ul>
+</section>
+<section class="release">
+<h2><span>1.2</span><span class="tag">21 octobre 2026</span></h2>
+<p class="meta">Marchand et bestiaire</p>
+<ul><li>Le marchand rachète aussi tes consommables, avec un menu Acheter / Vendre / Quitter et une confirmation.</li><li>Le bestiaire liste tes sorts, ceux encore gardés par un boss, et la compétence de ton marcheur.</li><li>Choix du marcheur plus clair, avec une confirmation et des flèches plus visibles.</li><li>Réglages > Accès aux pas, pour réautoriser Santé facilement.</li></ul>
+</section>
+<section class="release">
+<h2><span>1.1</span><span class="tag">20 octobre 2026</span></h2>
+<p class="meta">Sheporia sur iPhone</p>
+<ul><li>Une app iPhone complète, jouable avec ou sans montre, avec un accueil, des onglets et des écrans agrandis.</li><li>Une seule partie partagée entre l'iPhone et la montre, par ton iCloud.</li></ul>
+</section>
+<section class="release">
+<h2><span>1.0</span><span class="tag">20 octobre 2026</span></h2>
+<p class="meta">Lancement sur Apple Watch</p>
+<ul><li>Un RPG rétro où tes vrais pas font avancer ton héros, à ton rythme (Flâneur, Promeneur, Randonneur, Arpenteur).</li><li>6 marcheurs, chacun avec son bonus de marche et sa compétence.</li><li>4 mondes, 12 monstres, 4 boss, 5 sorts et une histoire racontée par les bornes du chemin.</li><li>Quêtes du jour et de la semaine, bestiaire, équipement et marchand.</li><li>Au-delà du lac : la suite sans fin, jusqu'au niveau 50.</li><li>Trois thèmes d'écran, complication du cadran et Tenue de l'aube à gagner.</li></ul>
+</section>
+</div>
+<div lang="en">
+<h1>Release notes</h1>
+<p class="meta">Everything that changed in Sheporia since the first version.</p>
+<section class="release">
+<h2><span>1.6</span><span class="tag next">Coming soon</span></h2>
+<p class="meta">More encounters, more surprises</p>
+<h3>New encounters</h3>
+<ul><li>Elite monsters, from the Forest on: enraged, armored or swift, tougher but twice as rich.</li><li>Ambushes, from the Forest on: two monsters in a row.</li><li>Crossroads: a safe path or a risky one, with scenes unique to each world.</li><li>Suspicious chests: it's up to you whether to open them…</li><li>4 new monsters to discover, one per world.</li></ul>
+<h3>Balance</h3>
+<ul><li>3 to 4 encounters per stage (3 to 5 for the Wanderer), a reserve of 8 encounters and a 15-item bag.</li><li>Weaknesses spread more evenly across fire, ice and lightning: fire no longer works everywhere.</li><li>Rewards adjusted for the extra encounters; Meadows monsters slightly tougher; Frost Giant and Motionless Lord strengthened.</li><li>Peddler: no more attack penalty, and his bomb costs less, grows with his level and stuns the monster.</li></ul>
+<h3>Quality of life</h3>
+<ul><li>A banner tells you when a new version is available, or when your watch and iPhone run different versions.</li></ul>
+</section>
+<section class="release">
+<h2><span>1.5</span><span class="tag">October 22, 2026</span></h2>
+<p class="meta">Sync without duplicates</p>
+<ul><li>An encounter played on one device disappears from the other: no more duplicate encounters.</li><li>The watch and iPhone talk directly when they're close, for faster syncing.</li><li>Fix: switching devices could jump you straight to the boss.</li></ul>
+</section>
+<section class="release">
+<h2><span>1.4</span><span class="tag">October 22, 2026</span></h2>
+<p class="meta">Precise sync and anti-cheat</p>
+<ul><li>iPhone and watch pick up at exactly the same place, down to your progress within the current stage.</li><li>Steps entered manually in Health no longer count.</li></ul>
+</section>
+<section class="release">
+<h2><span>1.3</span><span class="tag">October 21, 2026</span></h2>
+<p class="meta">Outfit shop</p>
+<ul><li>12 cosmetic outfits for sale, €0.99 each: the Legends Collection and the Saga Collection, one of each per walker.</li><li>“Restore Purchases” button. Bought outfits follow your Apple Account on iPhone and watch.</li><li>No gameplay effect: all content stays free.</li></ul>
+</section>
+<section class="release">
+<h2><span>1.2</span><span class="tag">October 21, 2026</span></h2>
+<p class="meta">Merchant and bestiary</p>
+<ul><li>The merchant now also buys your consumables, with a Buy / Sell / Leave menu and a confirmation.</li><li>The bestiary lists your spells, those still guarded by a boss, and your walker's skill.</li><li>Clearer walker choice, with a confirmation and more visible arrows.</li><li>Settings > Step access, to re-allow Health easily.</li></ul>
+</section>
+<section class="release">
+<h2><span>1.1</span><span class="tag">October 20, 2026</span></h2>
+<p class="meta">Sheporia on iPhone</p>
+<ul><li>A full iPhone app, playable with or without a watch, with a home screen, tabs and larger screens.</li><li>A single game shared between iPhone and watch, through your iCloud.</li></ul>
+</section>
+<section class="release">
+<h2><span>1.0</span><span class="tag">October 20, 2026</span></h2>
+<p class="meta">Launch on Apple Watch</p>
+<ul><li>A retro RPG where your real steps move your hero, at your pace (Stroller, Walker, Hiker, Trekker).</li><li>6 walkers, each with a walking bonus and a signature skill.</li><li>4 worlds, 12 monsters, 4 bosses, 5 spells and a story told by the milestones along the path.</li><li>Daily and weekly quests, bestiary, gear and merchant.</li><li>Beyond the Lake: the endless journey, up to level 50.</li><li>Three screen themes, watch face complication and a Dawn Outfit to earn.</li></ul>
+</section>
+</div>
+<p style="margin-top:40px"><a href="index.html"><span lang="fr">← Guide du marcheur</span><span lang="en">← Walker's guide</span></a> · <a href="privacy.html"><span lang="fr">Confidentialité</span><span lang="en">Privacy</span></a></p>
+</div>
+<script>
+(function () {
+  var root = document.documentElement, buttons = document.querySelectorAll('button[data-lang]');
+  function setLang(lang) {
+    root.classList.remove('show-fr','show-en'); root.classList.add('show-' + lang); root.setAttribute('lang', lang);
+    document.title = lang === 'en' ? 'Sheporia · Release notes' : 'Sheporia · Notes de version';
+    buttons.forEach(function (b) { b.setAttribute('aria-pressed', b.dataset.lang === lang ? 'true' : 'false'); });
+    try { localStorage.setItem('sheporia-lang', lang); } catch (e) {}
+  }
+  buttons.forEach(function (b) { b.addEventListener('click', function () { setLang(b.dataset.lang); }); });
+  var saved = null; try { saved = localStorage.getItem('sheporia-lang'); } catch (e) {}
+  if (!saved) { saved = (navigator.language || 'fr').slice(0,2) === 'fr' ? 'fr' : 'en'; }
+  setLang(saved);
+})();
+</script>
+</body>
+</html>
