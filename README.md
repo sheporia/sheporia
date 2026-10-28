@@ -14,9 +14,9 @@ Sheporia est un jeu de rôle rétro et gratuit pour iPhone et Apple Watch : tes 
 
 ## Confidentialité en bref / Privacy in short
 
-Sheporia lit uniquement ton nombre de pas, sur ton iPhone ou ta montre, sans jamais l'envoyer sur internet. Pas de compte, pas de publicité, pas de pistage. Ta partie peut être sauvegardée dans ton propre iCloud, sans aucune donnée de pas.
+Sheporia lit uniquement ton nombre de pas, sur ton iPhone ou ta montre. Seul ton total de la semaine peut être partagé, dans un classement Game Center, si tu y es connecté. Pas de compte, pas de publicité, pas de pistage. Ta partie peut être sauvegardée dans ton propre iCloud, sans aucune donnée de pas.
 
-*Sheporia only reads your step count, on your watch, and never sends it over the internet. No account, no ads, no tracking. Your game can be backed up to your own iCloud, without any step data.*
+*Sheporia only reads your step count, on your iPhone or watch. Only your weekly total may be shared, on a Game Center leaderboard, if you are signed in. No account, no ads, no tracking. Your game can be backed up to your own iCloud, without any step data.*
 
 ## Contact
 
