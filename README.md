@@ -2,9 +2,9 @@
 
 **Le RPG qui avance quand tu marches. · The RPG that moves when you walk.**
 
-Sheporia est un jeu de rôle rétro et gratuit pour iPhone et Apple Watch : tes vrais pas, lus dans l'app Santé, font avancer ton héros à travers un royaume en pixel art. Combats au tour par tour, six marcheurs, quatre mondes, des boss, une aventure sans fin et des événements temporaires (Noël jusqu'au 28 février 2027).
+Sheporia est un jeu de rôle rétro et gratuit pour iPhone et Apple Watch : tes vrais pas, lus dans l'app Santé, font avancer ton héros à travers un royaume en pixel art. Combats au tour par tour, six marcheurs, quatre mondes, des boss, une aventure sans fin avec sa forge, et des événements temporaires (Noël jusqu'au 28 février 2027).
 
-*Sheporia is a free retro role-playing game for iPhone and Apple Watch: your real steps, read from Apple Health, move your hero through a pixel-art kingdom. Turn-based battles, six walkers, four worlds, bosses, an endless adventure and limited-time events (Christmas until February 28, 2027).*
+*Sheporia is a free retro role-playing game for iPhone and Apple Watch: your real steps, read from Apple Health, move your hero through a pixel-art kingdom. Turn-based battles, six walkers, four worlds, bosses, an endless adventure with its forge, and limited-time events (Christmas until February 28, 2027).*
 
 ## Pages
 
