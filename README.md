@@ -2,9 +2,9 @@
 
 **Le RPG qui avance quand tu marches. · The RPG that moves when you walk.**
 
-Sheporia est un jeu de rôle rétro et gratuit pour iPhone et Apple Watch : tes vrais pas, lus dans l'app Santé, font avancer ton héros à travers un royaume en pixel art. Combats au tour par tour, six marcheurs, quatre mondes, des boss, une aventure sans fin avec sa forge, et des événements temporaires (Noël jusqu'au 28 février 2027).
+Sheporia est un jeu de rôle rétro et gratuit pour iPhone et Apple Watch : tes vrais pas, lus dans l'app Santé, font avancer ton héros à travers un royaume en pixel art. Combats au tour par tour, six marcheurs, quatre mondes, des boss, une aventure sans fin avec sa forge, un boss de la semaine avec son classement mondial, et des événements temporaires (Noël jusqu'au 28 février 2027).
 
-*Sheporia is a free retro role-playing game for iPhone and Apple Watch: your real steps, read from Apple Health, move your hero through a pixel-art kingdom. Turn-based battles, six walkers, four worlds, bosses, an endless adventure with its forge, and limited-time events (Christmas until February 28, 2027).*
+*Sheporia is a free retro role-playing game for iPhone and Apple Watch: your real steps, read from Apple Health, move your hero through a pixel-art kingdom. Turn-based battles, six walkers, four worlds, bosses, an endless adventure with its forge, a weekly boss with its worldwide leaderboard, and limited-time events (Christmas until February 28, 2027).*
 
 ## Pages
 
@@ -14,9 +14,9 @@ Sheporia est un jeu de rôle rétro et gratuit pour iPhone et Apple Watch : tes 
 
 ## Confidentialité en bref / Privacy in short
 
-Sheporia lit uniquement ton nombre de pas, sur ton iPhone ou ta montre. Seul ton total de la semaine peut être partagé, dans un classement Game Center, si tu y es connecté. Pas de compte, pas de publicité, pas de pistage. Ta partie peut être sauvegardée dans ton propre iCloud, sans aucune donnée de pas.
+Sheporia lit uniquement ton nombre de pas, sur ton iPhone ou ta montre. Seuls ton total de pas de la semaine et ton score au boss de la semaine peuvent être partagés, dans des classements Game Center, si tu y es connecté. Pas de compte, pas de publicité, pas de pistage. Ta partie peut être sauvegardée dans ton propre iCloud, sans aucune donnée de pas.
 
-*Sheporia only reads your step count, on your iPhone or watch. Only your weekly total may be shared, on a Game Center leaderboard, if you are signed in. No account, no ads, no tracking. Your game can be backed up to your own iCloud, without any step data.*
+*Sheporia only reads your step count, on your iPhone or watch. Only your weekly step total and your weekly boss score may be shared, on Game Center leaderboards, if you are signed in. No account, no ads, no tracking. Your game can be backed up to your own iCloud, without any step data.*
 
 ## Contact
 
